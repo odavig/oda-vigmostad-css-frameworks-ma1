@@ -1,0 +1,24 @@
+footer {
+  background-color: $header-farge;
+  padding-top: 1%;
+}
+
+.footer__text {
+  color: $footer-tekst-farge;
+  font-family: $main-font;
+}
+
+@media screen and (max-width: 768px) {
+  footer p{
+    text-align: center;
+  }
+
+  .footer__text {
+    text-align: center;
+    width: 100vw;
+  }
+  
+  .footer__text--margin {
+    padding: 0px;
+  }
+}

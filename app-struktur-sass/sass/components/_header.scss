@@ -1,0 +1,16 @@
+.navbar-brand {
+  padding-left: 5%;
+  font-size: 36px;
+  font-family: $main-font;
+  font-weight: bold;
+  @extend .headings;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: $rosa-detaljer;
+}
+
+a.nav-link {
+  font-family: $nav-font;
+  font-size: 1.2em;
+}
